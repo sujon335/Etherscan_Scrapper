@@ -1,5 +1,5 @@
 # Etherscan_Scrapper
-A scrapy pyhton project to crawl https://etherscan.io/ and collect all the verified smart contract codes to create corresponding solidity files for analysis
+A scrapy python project to crawl https://etherscan.io/ and collect all the verified smart contract codes to create corresponding solidity files for analysis
 
 Steps: 
 1. pip install scrapy
