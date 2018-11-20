@@ -8,10 +8,16 @@ Steps:
 
 Set DOWNLOAD_DELAY=9
 in settings.py of your created project
+
 3. copy etherscrapper.py, codescrapper.py  and solcreator.py inside spiders directory of your project
+
 4. Run: scrapy crawl EtherScan_Spider -o contents.json
+
 5. Run: scrapy crawl code_spider -o codeoutput.json
+
 6. Run: mkdir solidityFiles
+
 7. Run: python solcreator.py
+
 
 You will have the crawled solidity files saved in the soldityFiles directory
