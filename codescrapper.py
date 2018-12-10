@@ -11,7 +11,8 @@ class EtherScanSpider(scrapy.Spider):
          version=data[i]["version"]
          if(version is None):
              continue
-             #if( version !="v0.4.26" and version !="v0.4.25" and version !="v0.4.24" and version !="v0.4.23" and version !="v0.4.22"):
+          ## add the below condition to crawl version specific solidity codes    
+          #if( version !="v0.4.26" and version !="v0.4.25" and version !="v0.4.24" and version !="v0.4.23" and version !="v0.4.22"):
          address=data[i]["address"]
          address='https://etherscan.io'+address
              #print(address)
